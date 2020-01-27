@@ -10,6 +10,6 @@
 import Foundation
 
 struct Follower: Codable {
-    var logdffgsdfgsin: String
+    var login: String
     var avatarUrl: String
 }
