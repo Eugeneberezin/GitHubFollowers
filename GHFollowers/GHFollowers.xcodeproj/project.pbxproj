@@ -26,6 +26,7 @@
 		05C307C323DE6C8700382F5B /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C307C223DE6C8700382F5B /* FollowerCell.swift */; };
 		05C307C523DE6CBB00382F5B /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C307C423DE6CBB00382F5B /* GFAvatarImageView.swift */; };
 		05DB3C4023C43E3600626C41 /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DB3C3F23C43E3600626C41 /* ErrorMessage.swift */; };
+		05EA37C023FA32FB009C8676 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EA37BF23FA32FB009C8676 /* UIHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		05C307C223DE6C8700382F5B /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
 		05C307C423DE6CBB00382F5B /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
 		05DB3C3F23C43E3600626C41 /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
+		05EA37BF23FA32FB009C8676 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				05DB3C3F23C43E3600626C41 /* ErrorMessage.swift */,
+				05EA37BF23FA32FB009C8676 /* UIHelper.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -237,6 +240,7 @@
 				0522953923C2ACA100A19016 /* AppDelegate.swift in Sources */,
 				05BF53A323D52AB600C70AC8 /* GFButton.swift in Sources */,
 				05C307BA23DE5BCB00382F5B /* GFAlertVC.swift in Sources */,
+				05EA37C023FA32FB009C8676 /* UIHelper.swift in Sources */,
 				05C307C523DE6CBB00382F5B /* GFAvatarImageView.swift in Sources */,
 				05C307BC23DE5C0B00382F5B /* GFTitleLabel.swift in Sources */,
 				05DB3C4023C43E3600626C41 /* ErrorMessage.swift in Sources */,
