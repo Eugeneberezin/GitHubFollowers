@@ -8,8 +8,9 @@
 
 import UIKit
 
-class UserInfoVC: UIViewController {
-    
+class UserInfoVS: UIViewController {
+
+   
     let headerView          = UIView()
     let itemViewOne         = UIView()
     let itemViewTwo         = UIView()
@@ -82,7 +83,6 @@ class UserInfoVC: UIViewController {
     }
     
     
-    
     func add(childVC: UIViewController, to containerView: UIView) {
         addChild(childVC)
         containerView.addSubview(childVC.view)
@@ -94,4 +94,5 @@ class UserInfoVC: UIViewController {
     @objc func dismssVC() {
         dismiss(animated: true)
     }
+
 }
