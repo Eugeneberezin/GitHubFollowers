@@ -12,6 +12,7 @@
 		0515B503243D592900FAA8D0 /* GFSecondaryTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0515B502243D592900FAA8D0 /* GFSecondaryTitleLabel.swift */; };
 		0515B505243D5A7400FAA8D0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0515B504243D5A7400FAA8D0 /* Constants.swift */; };
 		0515B507243D677800FAA8D0 /* GFItemInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0515B506243D677800FAA8D0 /* GFItemInfoView.swift */; };
+		0515B509243E92ED00FAA8D0 /* GFItemInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0515B508243E92ED00FAA8D0 /* GFItemInfoVC.swift */; };
 		0522953923C2ACA100A19016 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0522953823C2ACA100A19016 /* AppDelegate.swift */; };
 		0522953B23C2ACA100A19016 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0522953A23C2ACA100A19016 /* SceneDelegate.swift */; };
 		0522954223C2ACA300A19016 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0522954123C2ACA300A19016 /* Assets.xcassets */; };
@@ -41,6 +42,7 @@
 		0515B502243D592900FAA8D0 /* GFSecondaryTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFSecondaryTitleLabel.swift; sourceTree = "<group>"; };
 		0515B504243D5A7400FAA8D0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		0515B506243D677800FAA8D0 /* GFItemInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFItemInfoView.swift; sourceTree = "<group>"; };
+		0515B508243E92ED00FAA8D0 /* GFItemInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFItemInfoVC.swift; sourceTree = "<group>"; };
 		0522953523C2ACA100A19016 /* GHFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0522953823C2ACA100A19016 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0522953A23C2ACA100A19016 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				0515B4FE243D52A000FAA8D0 /* GFUserInfoHeaderVC.swift */,
+				0515B508243E92ED00FAA8D0 /* GFItemInfoVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -307,6 +310,7 @@
 				0515B4EA24394D5200FAA8D0 /* UserInfoVS.swift in Sources */,
 				05BF53A323D52AB600C70AC8 /* GFButton.swift in Sources */,
 				05C307BA23DE5BCB00382F5B /* GFAlertVC.swift in Sources */,
+				0515B509243E92ED00FAA8D0 /* GFItemInfoVC.swift in Sources */,
 				0515B505243D5A7400FAA8D0 /* Constants.swift in Sources */,
 				05EA37C023FA32FB009C8676 /* UIHelper.swift in Sources */,
 				05C307C523DE6CBB00382F5B /* GFAvatarImageView.swift in Sources */,
