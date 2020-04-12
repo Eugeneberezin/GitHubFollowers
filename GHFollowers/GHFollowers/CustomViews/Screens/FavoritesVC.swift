@@ -13,6 +13,15 @@ class FavoritesVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .systemGray4
+        PersistenceManager.retrieveFavorites { result in
+            switch result {
+                
+            case .success(let favorites):
+                print(favorites)
+            case .failure(let error):
+                break
+            }
+        }
 
         // Do any additional setup after loading the view.
     }
