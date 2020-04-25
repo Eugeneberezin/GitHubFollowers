@@ -38,7 +38,6 @@ class FollowerListVC: UIViewController {
         configureDataSource()
     }
     
-    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         navigationController?.setNavigationBarHidden(false, animated: true)
@@ -195,6 +194,7 @@ extension FollowerListVC: FollowerListVCDelegate {
         followers.removeAll()
         filteredFollower.removeAll()
         collectionView.setContentOffset(.zero, animated: true)
+        collectionView.scrollToItem(at: IndexPath(item: 0, section: 0), at: .top, animated: true)
         getFollowers(username: username, page: page)
         
     }

@@ -24,6 +24,8 @@
 		0522954D23C2B48200A19016 /* SearchViC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0522954C23C2B48200A19016 /* SearchViC.swift */; };
 		0522954F23C2B53C00A19016 /* FavoritesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0522954E23C2B53C00A19016 /* FavoritesVC.swift */; };
 		052DAFDB2442A6180076CDFB /* FavoriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052DAFDA2442A6180076CDFB /* FavoriteCell.swift */; };
+		052DAFDF244696DB0076CDFB /* GFTabBarContrroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052DAFDE244696DB0076CDFB /* GFTabBarContrroller.swift */; };
+		052DAFE12447F3820076CDFB /* UITableViewExtansion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052DAFE02447F3820076CDFB /* UITableViewExtansion.swift */; };
 		057AC06C24369117001970E1 /* GFEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057AC06B24369117001970E1 /* GFEmptyStateView.swift */; };
 		05BF53A323D52AB600C70AC8 /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BF53A223D52AB600C70AC8 /* GFButton.swift */; };
 		05BF53A523D52AF700C70AC8 /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BF53A423D52AF700C70AC8 /* GFTextField.swift */; };
@@ -61,6 +63,8 @@
 		0522954C23C2B48200A19016 /* SearchViC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViC.swift; sourceTree = "<group>"; };
 		0522954E23C2B53C00A19016 /* FavoritesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesVC.swift; sourceTree = "<group>"; };
 		052DAFDA2442A6180076CDFB /* FavoriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCell.swift; sourceTree = "<group>"; };
+		052DAFDE244696DB0076CDFB /* GFTabBarContrroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTabBarContrroller.swift; sourceTree = "<group>"; };
+		052DAFE02447F3820076CDFB /* UITableViewExtansion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewExtansion.swift; sourceTree = "<group>"; };
 		057AC06B24369117001970E1 /* GFEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFEmptyStateView.swift; sourceTree = "<group>"; };
 		05BF53A223D52AB600C70AC8 /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
 		05BF53A423D52AF700C70AC8 /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
@@ -120,6 +124,14 @@
 				0522954623C2ACA300A19016 /* Info.plist */,
 			);
 			path = GHFollowers;
+			sourceTree = "<group>";
+		};
+		052DAFDD244696030076CDFB /* TabBarControllers */ = {
+			isa = PBXGroup;
+			children = (
+				052DAFDE244696DB0076CDFB /* GFTabBarContrroller.swift */,
+			);
+			path = TabBarControllers;
 			sourceTree = "<group>";
 		};
 		057AC06424369039001970E1 /* Views */ = {
@@ -204,6 +216,7 @@
 			children = (
 				05C307BF23DE67E300382F5B /* UIVIewController+Ext.swift */,
 				0515B50E243EA50A00FAA8D0 /* Dates+String+Ext.swift */,
+				052DAFE02447F3820076CDFB /* UITableViewExtansion.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -211,6 +224,7 @@
 		05C307B723DE5AA000382F5B /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
+				052DAFDD244696030076CDFB /* TabBarControllers */,
 				057AC06A243690D8001970E1 /* Labels */,
 				057AC0682436907B001970E1 /* ViewControllers */,
 				057AC06724369065001970E1 /* ImageViews */,
@@ -320,6 +334,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0522954F23C2B53C00A19016 /* FavoritesVC.swift in Sources */,
+				052DAFDF244696DB0076CDFB /* GFTabBarContrroller.swift in Sources */,
 				05C307B123DE237A00382F5B /* Follower.swift in Sources */,
 				0522953923C2ACA100A19016 /* AppDelegate.swift in Sources */,
 				0515B4EA24394D5200FAA8D0 /* UserInfoVS.swift in Sources */,
@@ -333,6 +348,7 @@
 				0515B50F243EA50A00FAA8D0 /* Dates+String+Ext.swift in Sources */,
 				0515B50D243E9B8200FAA8D0 /* GFFollowerItemVC.swift in Sources */,
 				0515B507243D677800FAA8D0 /* GFItemInfoView.swift in Sources */,
+				052DAFE12447F3820076CDFB /* UITableViewExtansion.swift in Sources */,
 				05DB3C4023C43E3600626C41 /* ErrorMessage.swift in Sources */,
 				05C307C323DE6C8700382F5B /* FollowerCell.swift in Sources */,
 				0515B4FF243D52A000FAA8D0 /* GFUserInfoHeaderVC.swift in Sources */,

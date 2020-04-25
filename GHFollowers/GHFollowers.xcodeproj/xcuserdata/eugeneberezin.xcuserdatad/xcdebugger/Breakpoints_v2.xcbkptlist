@@ -78,8 +78,8 @@
             filePath = "GHFollowers/CustomViews/Screens/UserInfoVS.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "122"
-            endingLineNumber = "122"
+            startingLineNumber = "124"
+            endingLineNumber = "124"
             landmarkName = "didTapGitHubProfile(for:)"
             landmarkType = "7">
          </BreakpointContent>

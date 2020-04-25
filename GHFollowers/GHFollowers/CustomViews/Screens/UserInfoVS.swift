@@ -50,10 +50,12 @@ class UserInfoVS: UIViewController {
             case .success(let user):
                 DispatchQueue.main.async {
                     self.configureUIElements(with: user)
+                    print(user)
                 }
                 
             case .failure(let error):
                 self.presentGFAlertOnMainThread(title: "Something went wrong", message: error.rawValue, buttonTitle: "Ok")
+                print(error.localizedDescription)
             }
         }
     }
@@ -70,7 +72,7 @@ class UserInfoVS: UIViewController {
         self.add(childVC: GFUserInfoHeaderVC(user: user), to: self.headerView)
         self.add(childVC: repoItemVC, to: self.itemViewOne)
         self.add(childVC: followerItemVC, to: self.itemViewTwo)
-        self.dateLabel.text = "GitHub Since \(user.createdAt.convertToDisplayFormat())"
+        self.dateLabel.text = "GitHub Since \(user.createdAt.convertToMonthYearFormat())"
     }
     
     func layoutUI() {
